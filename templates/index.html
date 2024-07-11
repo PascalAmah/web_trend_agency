@@ -22,6 +22,13 @@
       href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css"
       rel="stylesheet"
     />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
   </head>
   <body>
     <!--====== TOP HEADER ======-->
@@ -198,7 +205,7 @@
 
         <div class="nav-items">
           <div class="nav-links">
-            <a href="#" class="active nav-item">Home</a>
+            <a href="#hero" class="nav-item active">Home</a>
             <a href="#about" class="nav-item">About</a>
             <a href="#services" class="nav-item">Services</a>
             <a href="#contact" class="nav-item">Contact</a>
@@ -218,456 +225,236 @@
       </div>
     </header>
 
-    <!--====== HERO SECTION ======-->
-    <section id="hero" class="home">
-      <div class="hero-content">
-        <div>
-          <h1>Lorem ipsum dolor sit amet, consectetur...</h1>
-          <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
-        </div>
+    <main>
+      <!--====== HERO SECTION ======-->
+      <section id="hero" class="home">
+        <div class="hero-content">
+          <div>
+            <h1>Lorem ipsum dolor sit amet, consectetur...</h1>
+            <p>
+              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+          </div>
 
-        <div class="hero-btn">
-          <a class="get-started" type="button">Get Started</a>
-        </div>
-      </div>
-    </section>
-
-    <!--====== ABOUT SECTION ======-->
-    <section id="about">
-      <div class="section-title">
-        <p>About Us</p>
-        <h2>WHAT WE ARE</h2>
-      </div>
-
-      <div class="about-content">
-        <div class="about-content-main">
-          <h3>
-            Voluptatem dignissimos provident quasi corporis voluptates sit
-            assumenda.
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <ul class="about-list">
-            <li>
-              <i class="gg-check-r"></i>Ullamco laboris nisi ut aliquip ex ea
-              commodo consequat.
-            </li>
-            <li>
-              <i class="gg-check-r"></i>Ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-              pariatur.
-            </li>
-            <li>
-              <i class="gg-check-r"></i>Consequuntur sunt aut quasi enim aliquam
-              quae harum pariatur laboris nisi ut aliquip.
-            </li>
-          </ul>
-          <p>
-            Voluptatem dignissimos provident quasi corporis voluptates sit assum
-            perenda sruen jonee trave.
-          </p>
-        </div>
-        <div class="about-image">
-          <img src="{% static 'images/about1.jpg' %}" alt="" srcset="" />
-        </div>
-      </div>
-    </section>
-
-    <!--====== COUNTS SECTION ======-->
-    <section id="counts" class="counts">
-      <div class="counts-items">
-        <div>
-          <div class="count-box">
-            <div class="c-icon"><i class="gg-smile"></i></div>
-            <span
-              data-purecounter-start="0"
-              data-purecounter-end="232"
-              data-purecounter-duration="1"
-              class="purecounter"
-              >232</span
-            >
-            <p>Happy Clients</p>
+          <div class="hero-btn">
+            <a class="get-started" type="button">Get Started</a>
           </div>
         </div>
+      </section>
 
-        <div class="c-icon">
-          <div class="count-box">
-            <div class="c-icon"><i class="gg-list"></i></div>
-            <span
-              data-purecounter-start="0"
-              data-purecounter-end="36"
-              data-purecounter-duration="1"
-              class="purecounter"
-              >36</span
-            >
-            <p>Projects</p>
-          </div>
+      <!--====== ABOUT SECTION ======-->
+      <section id="about">
+        <div class="section-title">
+          <p>About Us</p>
+          <h2>WHAT WE ARE</h2>
         </div>
 
-        <div>
-          <div class="count-box">
-            <div class="c-icon"><i class="gg-headset"></i></div>
-            <span
-              data-purecounter-start="0"
-              data-purecounter-end="1463"
-              data-purecounter-duration="1"
-              class="purecounter"
-              >2400</span
-            >
-            <p>Hours Of Support</p>
+        <div class="about-content">
+          <div class="about-content-main">
+            <h3>
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assumenda.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul class="about-list">
+              <li>
+                <i class="gg-check-r"></i>Ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.
+              </li>
+              <li>
+                <i class="gg-check-r"></i>Ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                pariatur.
+              </li>
+              <li>
+                <i class="gg-check-r"></i>Consequuntur sunt aut quasi enim
+                aliquam quae harum pariatur laboris nisi ut aliquip.
+              </li>
+            </ul>
+            <p>
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assum perenda sruen jonee trave.
+            </p>
+          </div>
+          <div class="about-image">
+            <img src="{% static 'images/about1.jpg' %}" alt="about_img" />
           </div>
         </div>
+      </section>
 
-        <div>
-          <div class="count-box">
-            <div class="c-icon"><i class="gg-profile"></i></div>
-            <span
-              data-purecounter-start="0"
-              data-purecounter-end="15"
-              data-purecounter-duration="1"
-              class="purecounter"
-              >5</span
-            >
-            <p>Hard Workers</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--====== SERVICE SECTION ======-->
-    <section id="services" class="services">
-      <div class="services-contents">
-        <div class="content-heading">
-          <div class="section-title">
-            <p>Services</p>
-            <h2>WHAT WE DO</h2>
-          </div>
-          <p class="content-details">
-            <strong>Excepteur sint occaecat</strong> cupidatat non proident,
-            sunt in culpa qui officia deserunt mollit anim id est laborum
-          </p>
-        </div>
-
-        <div class="services-box">
-          <div class="services-content box-1">
-            <svg
-              fill="#3a3389"
-              width="40px"
-              height="40px"
-              viewBox="-0.96 -0.96 17.92 17.92"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M15 3.75h-3.49L11.11 2a1 1 0 0 0-1-.77H6A1 1 0 0 0 5 2l-.4 1.73H1a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-.98zM6.17 2.5h3.76l.29 1.25H5.88zM14.75 5v2.5H1.25V5zm-13.5 8.5V8.75H6V9a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-.25h4.75v4.75z"
-                ></path>
-              </g>
-            </svg>
-            <div>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
-              </p>
+      <!--====== COUNTS SECTION ======-->
+      <section id="counts" class="counts">
+        <div class="counts-items">
+          <div>
+            <div class="count-box">
+              <div class="c-icon"><i class="gg-smile"></i></div>
+              <span class="counter" data-end="232">0</span>
+              <p>Happy Clients</p>
             </div>
           </div>
 
-          <div class="services-content box-2">
-            <svg
-              width="40px"
-              height="40px"
-              viewBox="-1.6 -1.6 19.20 19.20"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="#3a3389"
-              class="bi bi-card-checklist"
-              stroke="#3a3389"
-              stroke-width="0.4"
-              transform="matrix(1, 0, 0, 1, 0, 0)"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
-                />
-                <path
-                  d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
-                />
-              </g>
-            </svg>
-            <div>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat tarad limino ata
-              </p>
+          <div class="c-icon">
+            <div class="count-box">
+              <div class="c-icon"><i class="gg-list"></i></div>
+              <span class="counter" data-end="36">0</span>
+              <p>Projects</p>
             </div>
           </div>
 
-          <div class="services-content box-3">
-            <svg
-              width="40px"
-              height="40px"
-              viewBox="0 0 24.00 24.00"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              stroke="#3a3389"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0" />
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M3.81372 11.1254V20.1923C3.81372 20.7211 4.2424 21.1497 4.7712 21.1497H9.5586V11.1254C9.5586 10.5966 9.12992 10.1679 8.60112 10.1679H4.7712C4.2424 10.1679 3.81372 10.5966 3.81372 11.1254Z"
-                  stroke="#3a3389"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M20.0909 12.8321H16.2609C15.7321 12.8321 15.3035 13.2607 15.3035 13.7895V21.153H20.0909C20.6197 21.153 21.0483 20.7243 21.0483 20.1955V13.7895C21.0483 13.2607 20.6197 12.8321 20.0909 12.8321Z"
-                  stroke="#3a3389"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                />
-                <path
-                  d="M9.55859 3.8045V10.1682V21.15H15.3035V3.8045C15.3035 3.27569 14.8748 2.84702 14.346 2.84702H10.5161C9.98727 2.84702 9.55859 3.27569 9.55859 3.8045Z"
-                  stroke="#3a3389"
-                  stroke-width="1.7"
-                  stroke-linecap="round"
-                />
-              </g>
-            </svg>
-            <div>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
-              </p>
+          <div>
+            <div class="count-box">
+              <div class="c-icon"><i class="gg-headset"></i></div>
+              <span class="counter" data-end="2400">0</span>
+              <p>Hours Of Support</p>
             </div>
           </div>
 
-          <div class="services-content box-1">
-            <svg
-              width="40px"
-              height="40px"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
-                  stroke="#3a3389"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </g>
-            </svg>
-            <div>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
-              </p>
+          <div>
+            <div class="count-box">
+              <div class="c-icon"><i class="gg-profile"></i></div>
+              <span class="counter" data-end="232">0</span>
+              <p>Hard Workers</p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!--====== CTA SECTION ======-->
-    <section id="cta">
-      <div class="cta-contents">
-        <div>
-          <h3>Call To Action</h3>
-          <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-        </div>
-        <div class="cta-button">
-          <a class="cta-btn" type="button">Get Started</a>
-        </div>
-      </div>
-    </section>
-
-    <!--====== FAQ SECTION ======-->
-    <section id="faq">
-      <div class="section-title">
-        <p>F.A.Q</p>
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
-      </div>
-
-      <div class="faq-contents">
-        <div class="faq-item">
-          <input type="checkbox" id="faq_1" class="faq-checkbox" />
-          <label for="faq_1" class="faq-item-title"
-            ><span class="icon"></span>Integer euismod in mi id ornare. Donec
-            non viverra tortoc vitae gravida nisi?</label
-          >
-          <div class="faq-item-desc">
-            Praesent rhoncus consectetur neque a faucibus. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Praesent non blandit diam.
-            Curabitur laoreet eget erat eu varius. Morbi lobortis nulla arcu, at
-            iaculis nibh ultrices ut. Praesent cursus rhoncus mauris nec
-            ultrices. Etiam urna ligula, fringilla a efficitur blandit, sagittis
-            vitae leo. Integer euismod in mi id ornare. Donec non viverra
-            tortor. Donec vitae gravida nisi. Sed a enim sit amet libero
-            ultricies gravida id in neque. Cras lacinia feugiat euismod. In
-            tempor posuere justo sed iaculis. Sed vulputate quis magna at
-            tincidunt.
+      <!--====== SERVICE SECTION ======-->
+      <section id="services" class="services">
+        <div class="services-contents">
+          <div class="content-heading">
+            <div class="section-title">
+              <p>Services</p>
+              <h2>WHAT WE DO</h2>
+            </div>
+            <p class="content-details">
+              <strong>Excepteur sint occaecat</strong> cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum
+            </p>
           </div>
-        </div>
 
-        <div class="faq-item">
-          <input type="checkbox" id="faq_2" class="faq-checkbox" />
-          <label for="faq_2" class="faq-item-title"
-            ><span class="icon"></span>Praesent cursus rhoncus mauris nec
-            ultrices?</label
-          >
-          <div class="faq-item-desc">
-            Morbi lobortis nulla arcu, at iaculis nibh ultrices ut. Praesent
-            cursus rhoncus mauris nec ultrices. Etiam urna ligula, fringilla a
-            efficitur blandit, sagittis vitae leo. Integer euismod in mi id
-            ornare. Donec non viverra tortor. Donec vitae gravida nisi. Sed a
-            enim sit amet libero ultricies gravida id in neque. Cras lacinia
-            feugiat euismod. In tempor posuere justo sed iaculis. Sed vulputate
-            quis magna at tincidunt.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <input type="checkbox" id="faq_3" class="faq-checkbox" />
-          <label for="faq_3" class="faq-item-title"
-            ><span class="icon"></span>Cras lacinia feugiat euismod. In tempor
-            posuere justo?</label
-          >
-          <div class="faq-item-desc">
-            Morbi lobortis nulla arcu, at iaculis nibh ultrices ut. Praesent
-            cursus rhoncus mauris nec ultrices. Etiam urna ligula, fringilla a
-            efficitur blandit, sagittis vitae leo. Integer euismod in mi id
-            ornare. Donec non viverra tortor. Donec vitae gravida nisi. Sed a
-            enim sit amet libero ultricies gravida id in neque. Cras lacinia
-            feugiat euismod. In tempor posuere justo sed iaculis. Sed vulputate
-            quis magna at tincidunt.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <input type="checkbox" id="faq_4" class="faq-checkbox" />
-          <label for="faq_4" class="faq-item-title"
-            ><span class="icon"></span>Donec at enim nulla. Nam maximus diam
-            vehicula, consectetur?</label
-          >
-          <div class="faq-item-desc">
-            Proin consequat mi ut urna ultrices cursus. Nulla facilisi. Proin
-            eleifend et dui quis sagittis. Curabitur hendrerit urna dapibus quam
-            fermentum consequat. Praesent imperdiet tellus tincidunt euismod
-            interdum. Curabitur congue ligula erat, vel rutrum nibh commodo at.
-            Donec at enim nulla. Nam maximus diam vehicula, consectetur turpis
-            et, vehicula orci. Duis porta hendrerit sem, at ultricies dui
-            sagittis et. Proin eget dignissim orci. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <input type="checkbox" id="faq_5" class="faq-checkbox" />
-          <label for="faq_5" class="faq-item-title"
-            ><span class="icon"></span>Pellentesque habitant morbi tristique
-            senectus et netus et malesuada?</label
-          >
-          <div class="faq-item-desc">
-            Quisque eu quam vel felis congue scelerisque ut eget quam. Nullam a
-            magna nulla. Quisque posuere porttitor turpis, at rhoncus lectus
-            accumsan eget. Praesent consequat porttitor dictum. Suspendisse
-            potenti. Praesent rhoncus consectetur neque a faucibus. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus. Praesent non
-            blandit diam.
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--====== CONTACT SECTION ======-->
-    <section id="contact">
-      <div class="section-title">
-        <p>Contact</p>
-        <h2>HOW TO REACH US</h2>
-      </div>
-
-      <div class="contact-content">
-        <div class="contact">
-          <div class="contact-info">
-            <svg
-              width="30px"
-              height="30px"
-              viewBox="0 0 1024 1024"
-              class="icon"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill="#3a3389"
-                d="M800 416a288 288 0 10-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 01704 0c0 149.312-117.312 330.688-352 544z"
-              />
-              <path
-                fill="#3a3389"
-                d="M512 512a96 96 0 100-192 96 96 0 000 192zm0 64a160 160 0 110-320 160 160 0 010 320z"
-              />
-            </svg>
-            <h3>Our Address</h3>
-            <p>863 Crooks Throughway, Lekki, Lagos, Nigeria</p>
-          </div>
-          <div class="contact-2">
-            <div class="contact-info">
+          <div class="services-box">
+            <div class="services-content box-1">
               <svg
                 fill="#3a3389"
-                width="30px"
-                height="30px"
-                viewBox="0 0 24 24"
+                width="40px"
+                height="40px"
+                viewBox="-0.96 -0.96 17.92 17.92"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path
-                  d="m16.484 11.976 6.151-5.344v10.627zm-7.926.905 2.16 1.875c.339.288.781.462 1.264.462h.017-.001.014c.484 0 .926-.175 1.269-.465l-.003.002 2.16-1.875 6.566 5.639h-20.009zm-6.572-7.516h20.03l-9.621 8.356c-.104.082-.236.132-.38.132-.005 0-.009 0-.014 0h.001c-.004 0-.009 0-.014 0-.144 0-.277-.05-.381-.133l.001.001zm-.621 1.266 6.15 5.344-6.15 5.28zm21.6-2.441c-.24-.12-.522-.19-.821-.19h-20.285c-.3.001-.584.071-.835.197l.011-.005c-.618.309-1.035.937-1.035 1.663v.004 12.168c.001 1.026.833 1.857 1.858 1.858h20.283c1.026-.001 1.857-.833 1.858-1.858v-12.168c0-.001 0-.002 0-.004 0-.727-.419-1.357-1.029-1.66l-.011-.005z"
-                />
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M15 3.75h-3.49L11.11 2a1 1 0 0 0-1-.77H6A1 1 0 0 0 5 2l-.4 1.73H1a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-.98zM6.17 2.5h3.76l.29 1.25H5.88zM14.75 5v2.5H1.25V5zm-13.5 8.5V8.75H6V9a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-.25h4.75v4.75z"
+                  ></path>
+                </g>
               </svg>
-              <h3>Email Us</h3>
-              <p>webtrendagency@info.com</p>
+              <div>
+                <h4><a href="#">Lorem Ipsum</a></h4>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi sint occaecati cupiditate non provident
+                </p>
+              </div>
             </div>
-            <div class="contact-info">
+
+            <div class="services-content box-2">
               <svg
-                width="30px"
-                height="30px"
+                width="40px"
+                height="40px"
+                viewBox="-1.6 -1.6 19.20 19.20"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#3a3389"
+                class="bi bi-card-checklist"
+                stroke="#3a3389"
+                stroke-width="0.4"
+                transform="matrix(1, 0, 0, 1, 0, 0)"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"
+                  />
+                  <path
+                    d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
+                  />
+                </g>
+              </svg>
+              <div>
+                <h4><a href="#">Dolor Sitema</a></h4>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata
+                </p>
+              </div>
+            </div>
+
+            <div class="services-content box-3">
+              <svg
+                width="40px"
+                height="40px"
+                viewBox="0 0 24.00 24.00"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#3a3389"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M3.81372 11.1254V20.1923C3.81372 20.7211 4.2424 21.1497 4.7712 21.1497H9.5586V11.1254C9.5586 10.5966 9.12992 10.1679 8.60112 10.1679H4.7712C4.2424 10.1679 3.81372 10.5966 3.81372 11.1254Z"
+                    stroke="#3a3389"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M20.0909 12.8321H16.2609C15.7321 12.8321 15.3035 13.2607 15.3035 13.7895V21.153H20.0909C20.6197 21.153 21.0483 20.7243 21.0483 20.1955V13.7895C21.0483 13.2607 20.6197 12.8321 20.0909 12.8321Z"
+                    stroke="#3a3389"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M9.55859 3.8045V10.1682V21.15H15.3035V3.8045C15.3035 3.27569 14.8748 2.84702 14.346 2.84702H10.5161C9.98727 2.84702 9.55859 3.27569 9.55859 3.8045Z"
+                    stroke="#3a3389"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+              <div>
+                <h4><a href="#">Sed ut perspiciatis</a></h4>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur
+                </p>
+              </div>
+            </div>
+
+            <div class="services-content box-1">
+              <svg
+                width="40px"
+                height="40px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -680,7 +467,7 @@
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
-                    d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
+                    d="M3 9H21M7 3V5M17 3V5M6 13H8M6 17H8M11 13H13M11 17H13M16 13H18M16 17H18M6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V8.2C21 7.07989 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
                     stroke="#3a3389"
                     stroke-width="2"
                     stroke-linecap="round"
@@ -688,68 +475,480 @@
                   ></path>
                 </g>
               </svg>
-              <h3>Phone Us</h3>
-              <p>+234 706 294 0343</p>
+              <div>
+                <h4><a href="#">Magni Dolore</a></h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        
-        <div class="contact-form">
-          <form action="" method="post" class="form-content">
-            <div>
-              <div class="name form-group">
+      </section>
+
+      <!--====== CTA SECTION ======-->
+      <section id="cta">
+        <div class="cta-contents">
+          <div>
+            <h3>Call To Action</h3>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+          </div>
+          <div class="cta-button">
+            <a class="cta-btn" type="button">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <!--====== FAQ SECTION ======-->
+      <section id="faq">
+        <div class="section-title">
+          <p>F.A.Q</p>
+          <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        </div>
+
+        <div class="faq-contents">
+          <div class="faq-item">
+            <input type="checkbox" id="faq_1" class="faq-checkbox" />
+            <label for="faq_1" class="faq-item-title"
+              ><span class="icon"></span>Integer euismod in mi id ornare. Donec
+              non viverra tortoc vitae gravida nisi?</label
+            >
+            <div class="faq-item-desc">
+              Praesent rhoncus consectetur neque a faucibus. Interdum et
+              malesuada fames ac ante ipsum primis in faucibus. Praesent non
+              blandit diam. Curabitur laoreet eget erat eu varius. Morbi
+              lobortis nulla arcu, at iaculis nibh ultrices ut. Praesent cursus
+              rhoncus mauris nec ultrices. Etiam urna ligula, fringilla a
+              efficitur blandit, sagittis vitae leo. Integer euismod in mi id
+              ornare. Donec non viverra tortor. Donec vitae gravida nisi. Sed a
+              enim sit amet libero ultricies gravida id in neque. Cras lacinia
+              feugiat euismod. In tempor posuere justo sed iaculis. Sed
+              vulputate quis magna at tincidunt.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <input type="checkbox" id="faq_2" class="faq-checkbox" />
+            <label for="faq_2" class="faq-item-title"
+              ><span class="icon"></span>Praesent cursus rhoncus mauris nec
+              ultrices?</label
+            >
+            <div class="faq-item-desc">
+              Morbi lobortis nulla arcu, at iaculis nibh ultrices ut. Praesent
+              cursus rhoncus mauris nec ultrices. Etiam urna ligula, fringilla a
+              efficitur blandit, sagittis vitae leo. Integer euismod in mi id
+              ornare. Donec non viverra tortor. Donec vitae gravida nisi. Sed a
+              enim sit amet libero ultricies gravida id in neque. Cras lacinia
+              feugiat euismod. In tempor posuere justo sed iaculis. Sed
+              vulputate quis magna at tincidunt.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <input type="checkbox" id="faq_3" class="faq-checkbox" />
+            <label for="faq_3" class="faq-item-title"
+              ><span class="icon"></span>Cras lacinia feugiat euismod. In tempor
+              posuere justo?</label
+            >
+            <div class="faq-item-desc">
+              Morbi lobortis nulla arcu, at iaculis nibh ultrices ut. Praesent
+              cursus rhoncus mauris nec ultrices. Etiam urna ligula, fringilla a
+              efficitur blandit, sagittis vitae leo. Integer euismod in mi id
+              ornare. Donec non viverra tortor. Donec vitae gravida nisi. Sed a
+              enim sit amet libero ultricies gravida id in neque. Cras lacinia
+              feugiat euismod. In tempor posuere justo sed iaculis. Sed
+              vulputate quis magna at tincidunt.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <input type="checkbox" id="faq_4" class="faq-checkbox" />
+            <label for="faq_4" class="faq-item-title"
+              ><span class="icon"></span>Donec at enim nulla. Nam maximus diam
+              vehicula, consectetur?</label
+            >
+            <div class="faq-item-desc">
+              Proin consequat mi ut urna ultrices cursus. Nulla facilisi. Proin
+              eleifend et dui quis sagittis. Curabitur hendrerit urna dapibus
+              quam fermentum consequat. Praesent imperdiet tellus tincidunt
+              euismod interdum. Curabitur congue ligula erat, vel rutrum nibh
+              commodo at. Donec at enim nulla. Nam maximus diam vehicula,
+              consectetur turpis et, vehicula orci. Duis porta hendrerit sem, at
+              ultricies dui sagittis et. Proin eget dignissim orci. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <input type="checkbox" id="faq_5" class="faq-checkbox" />
+            <label for="faq_5" class="faq-item-title"
+              ><span class="icon"></span>Pellentesque habitant morbi tristique
+              senectus et netus et malesuada?</label
+            >
+            <div class="faq-item-desc">
+              Quisque eu quam vel felis congue scelerisque ut eget quam. Nullam
+              a magna nulla. Quisque posuere porttitor turpis, at rhoncus lectus
+              accumsan eget. Praesent consequat porttitor dictum. Suspendisse
+              potenti. Praesent rhoncus consectetur neque a faucibus. Interdum
+              et malesuada fames ac ante ipsum primis in faucibus. Praesent non
+              blandit diam.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--====== CONTACT SECTION ======-->
+      <section id="contact">
+        <div class="section-title">
+          <p>Contact</p>
+          <h2>HOW TO REACH US</h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact">
+            <div class="contact-info">
+              <svg
+                width="30px"
+                height="30px"
+                viewBox="0 0 1024 1024"
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="#3a3389"
+                  d="M800 416a288 288 0 10-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 01704 0c0 149.312-117.312 330.688-352 544z"
+                />
+                <path
+                  fill="#3a3389"
+                  d="M512 512a96 96 0 100-192 96 96 0 000 192zm0 64a160 160 0 110-320 160 160 0 010 320z"
+                />
+              </svg>
+              <h3>Our Address</h3>
+              <p>863 Crooks Throughway, Lekki, Lagos, Nigeria</p>
+            </div>
+            <div class="contact-2">
+              <div class="contact-info">
+                <svg
+                  fill="#3a3389"
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m16.484 11.976 6.151-5.344v10.627zm-7.926.905 2.16 1.875c.339.288.781.462 1.264.462h.017-.001.014c.484 0 .926-.175 1.269-.465l-.003.002 2.16-1.875 6.566 5.639h-20.009zm-6.572-7.516h20.03l-9.621 8.356c-.104.082-.236.132-.38.132-.005 0-.009 0-.014 0h.001c-.004 0-.009 0-.014 0-.144 0-.277-.05-.381-.133l.001.001zm-.621 1.266 6.15 5.344-6.15 5.28zm21.6-2.441c-.24-.12-.522-.19-.821-.19h-20.285c-.3.001-.584.071-.835.197l.011-.005c-.618.309-1.035.937-1.035 1.663v.004 12.168c.001 1.026.833 1.857 1.858 1.858h20.283c1.026-.001 1.857-.833 1.858-1.858v-12.168c0-.001 0-.002 0-.004 0-.727-.419-1.357-1.029-1.66l-.011-.005z"
+                  />
+                </svg>
+                <h3>Email Us</h3>
+                <p>webtrend@info.com</p>
+              </div>
+              <div class="contact-info">
+                <svg
+                  width="30px"
+                  height="30px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
+                      stroke="#3a3389"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </g>
+                </svg>
+                <h3>Phone Us</h3>
+                <p>+234 706 294 0343</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form action="" method="post" class="form-content">
+              <div class="name_email">
+                <div class="name form-group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="email form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="subject form-group">
                 <input
                   type="text"
-                  name="name"
                   class="form-control"
-                  id="name"
-                  placeholder="Your Name"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject"
                   required
                 />
               </div>
-              <div class="email form-group">
-                <input
-                  type="email"
+              <div class="message form-group">
+                <textarea
                   class="form-control"
-                  name="email"
-                  id="email"
-                  placeholder="Your Email"
+                  name="message"
+                  rows="5"
+                  placeholder="Message"
                   required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button class="form-btn" type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--====== FOOTER ======-->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <a href="#">
+              <svg
+                width="120"
+                height="30"
+                viewBox="50 0 690 185"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_0_1)">
+                  <circle
+                    cx="29.4314"
+                    cy="56.4494"
+                    r="2.5"
+                    transform="rotate(-11.3768 29.4314 56.4494)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="146.087"
+                    cy="27.8763"
+                    r="12.5"
+                    transform="rotate(-11.3768 146.087 27.8763)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="109.817"
+                    cy="37.7245"
+                    r="10"
+                    transform="rotate(-11.3768 109.817 37.7245)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="78.0544"
+                    cy="44.6256"
+                    r="7.5"
+                    transform="rotate(-11.3768 78.0544 44.6256)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="51.3906"
+                    cy="51.5208"
+                    r="5"
+                    transform="rotate(-11.3768 51.3906 51.5208)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="45.2003"
+                    cy="124.679"
+                    r="2.5"
+                    transform="rotate(-11.3768 45.2003 124.679)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="161.27"
+                    cy="98.2643"
+                    r="12.5"
+                    transform="rotate(-11.3768 161.27 98.2643)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="125.586"
+                    cy="105.955"
+                    r="10"
+                    transform="rotate(-11.3768 125.586 105.955)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="93.8234"
+                    cy="112.856"
+                    r="7.5"
+                    transform="rotate(-11.3768 93.8234 112.856)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="67.1596"
+                    cy="119.751"
+                    r="5"
+                    transform="rotate(-11.3768 67.1596 119.751)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="52.3017"
+                    cy="159.972"
+                    r="2.5"
+                    transform="rotate(-11.3768 52.3017 159.972)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="168.372"
+                    cy="133.557"
+                    r="12.5"
+                    transform="rotate(-11.3768 168.372 133.557)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="132.688"
+                    cy="141.247"
+                    r="10"
+                    transform="rotate(-11.3768 132.688 141.247)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="100.925"
+                    cy="148.148"
+                    r="7.5"
+                    transform="rotate(-11.3768 100.925 148.148)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="74.261"
+                    cy="155.044"
+                    r="5"
+                    transform="rotate(-11.3768 74.261 155.044)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="36.5328"
+                    cy="91.742"
+                    r="2.5"
+                    transform="rotate(-11.3768 36.5328 91.742)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="153.189"
+                    cy="63.169"
+                    r="12.5"
+                    transform="rotate(-11.3768 153.189 63.169)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="116.919"
+                    cy="73.0171"
+                    r="10"
+                    transform="rotate(-11.3768 116.919 73.0171)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="85.1558"
+                    cy="79.9183"
+                    r="7.5"
+                    transform="rotate(-11.3768 85.1558 79.9183)"
+                    fill="#ABB1C6"
+                  />
+                  <circle
+                    cx="58.492"
+                    cy="86.8135"
+                    r="5"
+                    transform="rotate(-11.3768 58.492 86.8135)"
+                    fill="#ABB1C6"
+                  />
+                </g>
+                <path
+                  d="M196.91 143L170.88 9.99999H188.55L206.22 99.87L223.89 9.99999H241.56L259.04 99.87L276.71 9.99999H294.38L268.35 143H249.92L232.63 54.84L215.34 143H196.91ZM312.353 143C308.553 143 305.259 141.67 302.473 139.01C299.813 136.223 298.483 132.93 298.483 129.13V61.68C298.483 57.88 299.813 54.65 302.473 51.99C305.259 49.33 308.553 48 312.353 48H338.193C342.119 48 345.413 49.33 348.073 51.99C350.733 54.65 352.063 57.88 352.063 61.68V90.56C352.063 94.36 350.733 97.6533 348.073 100.44C345.413 103.1 342.119 104.43 338.193 104.43H316.343V118.3C316.343 120.2 316.976 121.847 318.243 123.24C319.636 124.507 321.346 125.14 323.373 125.14H348.073L352.063 143H312.353ZM316.343 86.57H327.363C329.263 86.57 330.846 85.9367 332.113 84.67C333.506 83.2767 334.203 81.63 334.203 79.73V72.7C334.203 70.8 333.506 69.2167 332.113 67.95C330.846 66.5567 329.263 65.86 327.363 65.86H323.373C321.346 65.86 319.636 66.5567 318.243 67.95C316.976 69.2167 316.343 70.8 316.343 72.7V86.57ZM365.465 143V4.48999L383.325 0.499989V48H405.175C408.975 48 412.205 49.33 414.865 51.99C417.652 54.65 419.045 57.9433 419.045 61.87V129.13C419.045 132.93 417.652 136.223 414.865 139.01C412.205 141.67 408.975 143 405.175 143H365.465ZM383.325 125.14H394.155C396.055 125.14 397.702 124.507 399.095 123.24C400.489 121.847 401.185 120.2 401.185 118.3V72.7C401.185 70.8 400.489 69.2167 399.095 67.95C397.702 66.5567 396.055 65.86 394.155 65.86H383.325V125.14ZM471.666 143V27.67H445.256V9.99999H515.746V27.67H489.336V143H471.666ZM513.457 143V48H553.167C556.967 48 560.197 49.3933 562.857 52.18C565.644 54.84 567.037 58.07 567.037 61.87V82.58L549.177 78.59V72.89C549.177 70.99 548.481 69.3433 547.087 67.95C545.821 66.5567 544.237 65.86 542.337 65.86H531.317V143H513.457ZM588.558 143C584.758 143 581.465 141.67 578.678 139.01C576.018 136.223 574.688 132.93 574.688 129.13V61.68C574.688 57.88 576.018 54.65 578.678 51.99C581.465 49.33 584.758 48 588.558 48H614.398C618.325 48 621.618 49.33 624.278 51.99C626.938 54.65 628.268 57.88 628.268 61.68V90.56C628.268 94.36 626.938 97.6533 624.278 100.44C621.618 103.1 618.325 104.43 614.398 104.43H592.548V118.3C592.548 120.2 593.181 121.847 594.448 123.24C595.841 124.507 597.551 125.14 599.578 125.14H624.278L628.268 143H588.558ZM592.548 86.57H603.568C605.468 86.57 607.051 85.9367 608.318 84.67C609.711 83.2767 610.408 81.63 610.408 79.73V72.7C610.408 70.8 609.711 69.2167 608.318 67.95C607.051 66.5567 605.468 65.86 603.568 65.86H599.578C597.551 65.86 595.841 66.5567 594.448 67.95C593.181 69.2167 592.548 70.8 592.548 72.7V86.57ZM640.434 143V48H680.144C683.817 48 687.047 49.33 689.834 51.99C692.62 54.65 694.014 57.88 694.014 61.68V143H676.154V72.7C676.154 70.6733 675.457 69.0267 674.064 67.76C672.67 66.4933 671.087 65.86 669.314 65.86H658.294V143H640.434ZM718.07 143C714.143 143 710.85 141.67 708.19 139.01C705.53 136.35 704.2 133.057 704.2 129.13V61.87C704.2 57.9433 705.53 54.65 708.19 51.99C710.85 49.33 714.143 48 718.07 48H739.92V4.67999L757.78 0.499989V143H718.07ZM728.9 125.14H739.92V65.86H728.9C727.126 65.86 725.543 66.4933 724.15 67.76C722.756 69.0267 722.06 70.6733 722.06 72.7V118.3C722.06 120.073 722.756 121.657 724.15 123.05C725.543 124.443 727.126 125.14 728.9 125.14Z"
+                  fill="white"
                 />
-              </div>
+                <defs>
+                  <clipPath id="clip0_0_1">
+                    <rect
+                      width="175"
+                      height="143"
+                      fill="white"
+                      transform="translate(0 44.5207) rotate(-11.3768)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+            <p>
+              863 Crooks Throughway, <br />
+              Lekki, Lagos,<br />
+              Nigeria <br /><br />
+              <strong>Phone:</strong> +234 706 294 0343<br />
+              <strong>Email:</strong> webtrend@info.com<br />
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>useful links</h4>
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>our services</h4>
+            <ul>
+              <li><a href="#">web design</a></li>
+              <li><a href="#">web development</a></li>
+              <li><a href="#">graphic design</a></li>
+              <li><a href="#">app development</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <div class="subject form-group">
-              <input
-                type="text"
-                class="form-control"
-                name="subject"
-                id="subject"
-                placeholder="Subject"
-                required
-              />
-            </div>
-            <div class="message form-group">
-              <textarea
-                class="form-control"
-                name="message"
-                rows="5"
-                placeholder="Message"
-                required
-              ></textarea>
-            </div>
-            <div>
-              <div class="loading">Loading</div>
-              <div class="sent-message">
-                Your message has been sent. Thank you!
-              </div>
-            </div>
-            <div class="text-center">
-              <button type="submit">Send Message</button>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
-    </section>
+
+      <div class="text-center">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Web Trend Agency.</span></strong> All
+          Rights Reserved
+        </div>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="{% static 'script/script.js' %}"></script>
   </body>
