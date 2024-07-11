@@ -6,7 +6,7 @@
   --color-2: #3a3389;
   --color-3: #6e796d;
   --color-4: #d9ddd8;
-  --color-5: #f7f3f3;
+  --color-5: #fafafa;
   --GRADIENT: linear-gradient(to left top, var(--color-2), var(--color-4));
 }
 
@@ -138,6 +138,7 @@ header {
   margin: auto;
   width: 100%;
   height: 1px;
+  border-radius: 4px;
   content: ".";
   color: transparent;
   background: var(--color-4);
@@ -249,8 +250,6 @@ header {
 
 #about .about-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
   padding: 0;
 }
@@ -295,11 +294,13 @@ header {
 .about-image {
   width: 100%;
   height: 100%;
+  /* border-radius: 10px; */
 }
 
 .about-image img {
   width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 
 /*:::::::::: COUNTS SECTION ::::::::::*/
@@ -519,13 +520,13 @@ header {
 
 .faq-item input[type="checkbox"] {
   position: absolute;
-  height: 10px;
-  width: 10px;
+  height: 0;
+  width: 0;
   opacity: 0;
 }
 
 .faq-item input[type="checkbox"]:checked ~ .faq-item-desc {
-  max-height: 200px;
+  max-height: 25rem;
   opacity: 1;
   padding: 1rem 1.25rem 1.25rem;
   transition: max-height 0.6s ease-out, opacity 0.6s ease-out;
@@ -536,7 +537,7 @@ header {
   font-size: 1.25rem;
 }
 
-.faq-item input[type="checkbox"]~.faq-item-title .icon:after {
+.faq-item input[type="checkbox"] ~ .faq-item-title .icon:after {
   content: "+";
   font-size: 1.25rem;
 }
@@ -549,6 +550,90 @@ header {
   margin-left: 14px;
 }
 
+/*:::::::::: CONTACT SECTION ::::::::::*/
+#contact .contact-content {
+  display: flex;
+  column-gap: 1rem;
+}
+
+#contact .contact-content > div {
+  flex: 1;
+}
+
+.contact-content .contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.contact-content .contact .contact-info {
+  text-align: center;
+  box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.06);
+  padding: 1.8rem 1rem 2rem;
+  border-radius: 4px;
+}
+
+.contact-content .contact .contact-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.contact-content .contact .contact-2 .contact-info {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.contact-content h3 {
+  margin-top: 0.8rem;
+  color: var(--color-1);
+  font-size: 1.3rem;
+}
+
+.contact-content p {
+  color: var(--color-1);
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.contact-form .form-content > div:first-child {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-form .form-content .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-content input,
+.contact-form .form-content textarea {
+  /* box-shadow: none; */
+  font-size: 14px;
+  border: 1px solid var(--color-3);
+  border-radius: 4px;
+}
+
+.contact-form .form-content input:focus,
+.contact-form .form-content textarea:focus {
+  border-color: var(--color-2);
+}
+
+.contact-form .form-content input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
 
 /*:::::::::: MOBILE NAVIGATION ::::::::::*/
 .toggle-menu {
@@ -624,7 +709,6 @@ header {
 
   section {
     padding: 2.2rem 8%;
-    height: 100vh;
   }
 
   .nav-links {
@@ -719,9 +803,23 @@ header {
   #cta {
     height: auto;
   }
+
+  .cta-button {
+    margin-top: 1rem;
+  }
+
+  #contact .contact-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  #contact .contact-content > div {
+    width: 80%;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   #hero h1 {
     font-size: 28px;
   }
@@ -757,6 +855,22 @@ header {
   .services-contents .services-content {
     width: 80%;
   }
+
+  #contact .contact-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  #contact .contact-content > div {
+    width: 100%;
+  }
+
+  /* .contact-content .contact .contact-2 .contact-info {
+    width: 50%;
+    height: 100%;
+    flex: 1 0;
+  } */
 }
 
 /* @media (max-width: 360px) {
@@ -779,14 +893,18 @@ header {
   }
 } */
 
-@media (max-width: 560px) {
+@media (max-width: 568px) {
   #hero {
-    height: 90vh;
+    height: 100vh;
   }
 
   section {
     padding: 1.4rem 4%;
     /* height: 100vh; */
+  }
+
+  section .section-title h2 {
+    font-size: 1.8rem;
   }
 
   header {
